@@ -63,6 +63,7 @@ class BadoinkVR(SimpleDownloader):
         )
         response = json.loads(response_)
 
+        # TODO: Support scenes from non-7k era
         for medium in response['media']:
             if medium['name'] == '7k':
                 self.link = medium['sources'][0]['url']
