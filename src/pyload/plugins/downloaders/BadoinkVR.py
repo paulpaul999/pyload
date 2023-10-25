@@ -14,7 +14,7 @@ class BadoinkVR(SimpleDownloader):
     __version__ = "0.1"
     __status__ = "testing"
 
-    __pattern__ = r"https://(?:www\.)?(?P<P>badoinkvr|kinkvr|babevr|vrcosplayx)\.com/(members/)?[^/]+/(?P<ID>[^/\s]+)"
+    __pattern__ = r"https://(?:www\.)?(?P<P>badoinkvr|kinkvr|babevr|vrcosplayx|18vr)\.com/(members/)?[^/]+/(?P<ID>[^/\s]+)"
     __config__ = [
         ("enabled", "bool", "Activated", True),
         ("use_premium", "bool", "Use premium account if available", True),
