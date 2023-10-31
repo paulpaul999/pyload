@@ -30,7 +30,7 @@ class PovrCom(SimpleDownloader):
     __version__ = "0.1"
     __status__ = "testing"
 
-    __pattern__ = r"https?://(?:www\.)?povr\.com/[^/]*/(?P<ID>[^/\s]+)"
+    __pattern__ = r"https?://(?:www\.)?povr\.com/vr-porn/(?P<ID>[^/\s]+)"
     __config__ = [
         ("enabled", "bool", "Activated", True),
         ("use_premium", "bool", "Use premium account if available", True),
