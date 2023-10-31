@@ -4,7 +4,7 @@
 import json
 import pycurl
 
-from pyload.core.utils import parse
+# from pyload.core.utils import parse
 from ..base.simple_downloader import SimpleDownloader
 
 
